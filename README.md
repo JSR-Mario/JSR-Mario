@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Chakra+Petch&weight=200&size=30&pause=998&color=28D4AB&background=8C7CE0D5&center=true&vCenter=true&random=false&width=435&height=55&lines=Emma+A.+Jimenez+S.;I+am+20+years+old.;Studying+Computer+Science" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"></a>
 </p>
 
 <p align="center">
