@@ -23,5 +23,7 @@ jobs:
           WAKATIME_USER_ID: ${{ secrets.WAKATIME_USER_ID }}
           GH_TOKEN:          ${{ secrets.GH_TOKEN }}
           SHOW_LINES_OF_CODE: "true"
-          SHOW_LOC_CHART:     "true"
+          SHOW_LOC_CHART:     "false"
           SHOW_PROJECTS:      "true"
+          SHOW_PROFILE_VIEWS:  "false"
+          SHOW_SHORT_INFO:     "false"
