@@ -97,6 +97,9 @@
   <summary>📊 Show My WakaTime Stats</summary>
 
   <!-- wakatime-stats injected here -->
+  <!--START_SECTION:waka-->
+  <!--END_SECTION:waka-->
+
   [//]: # (wakatime-stats)
   [//]: # (end-wakatime-stats)
 
