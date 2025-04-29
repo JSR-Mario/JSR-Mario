@@ -93,8 +93,8 @@
 
 ## ⚡ My Coding Activity
 
-<!-- waka_readme_stats start -->
-<!-- waka_readme_stats end -->
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 
 <hr>
