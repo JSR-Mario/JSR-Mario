@@ -93,14 +93,6 @@
 
 ## ⚡ My Coding Activity
 
-![My WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime
-  ?username=c70e7873-631b-4f7d-a411-e7788728cfaa
-  &layout=compact
-  &theme=radical
-  &bg_color=135,2C3E50,FD746C
-  &range=last_7_days
-)
-
 <details>
   <summary>📊 Show My WakaTime Stats</summary>
 
