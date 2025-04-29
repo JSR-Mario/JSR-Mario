@@ -94,7 +94,38 @@
 ## ⚡ My Coding Activity
 
 [//]: # (wakatime-stats)
+
+### Wakatime Stats
+```
++--------- All Time Stats for Programming Languages ---------+
+| Programming Languages     | Total Hours                    |
++---------------------------+--------------------------------+
+| TypeScript                |         21 hrs 53 mins         |
+| Python                    |         20 hrs 2 mins          |
+| TeX                       |         17 hrs 15 mins         |
+| C#                        |          1 hr 57 mins          |
+| YAML                      |          1 hr 16 mins          |
++---------------------------+--------------------------------+
+
+
++---------------- All Time Stats for Editors ----------------+
+| Editors                   | Total Hours                    |
++---------------------------+--------------------------------+
+| VS Code                   |         65 hrs 5 mins          |
++---------------------------+--------------------------------+
+
+
++----------- All Time Stats for Operating Systems -----------+
+| Operating Systems         | Total Hours                    |
++---------------------------+--------------------------------+
+| Linux                     |         46 hrs 55 mins         |
+| Windows                   |         18 hrs 10 mins         |
++---------------------------+--------------------------------+
+```
+
 [//]: # (end-wakatime-stats)
+
+
 
 
 <hr>
