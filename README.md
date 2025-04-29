@@ -98,7 +98,83 @@
 
   <!-- wakatime-stats injected here -->
   <!--START_SECTION:waka-->
-  <!--END_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-65%20hrs%205%20mins-blue)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-42-blue)
+
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-6.9%20million%20lines%20of%20code-blue)
+
+**🐱 My GitHub Data** 
+
+> 📦 258.8 kB Used in GitHub's Storage 
+ > 
+> 🏆 152 Contributions in the Year 2025
+ > 
+> 💼 Opted to Hire
+ > 
+> 📜 13 Public Repositories 
+ > 
+> 🔑 1 Private Repositories 
+ > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                339 commits         █████░░░░░░░░░░░░░░░░░░░░   18.43 % 
+🌆 Daytime                320 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.40 % 
+🌃 Evening                930 commits         █████████████░░░░░░░░░░░░   50.57 % 
+🌙 Night                  250 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.59 % 
+```
+📅 **I'm Most Productive on Tuesday** 
+
+```text
+Monday                   206 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.20 % 
+Tuesday                  444 commits         ██████░░░░░░░░░░░░░░░░░░░   24.14 % 
+Wednesday                329 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.89 % 
+Thursday                 263 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.30 % 
+Friday                   405 commits         ██████░░░░░░░░░░░░░░░░░░░   22.02 % 
+Saturday                 86 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   04.68 % 
+Sunday                   106 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.76 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: America/Mexico_City
+
+💬 Programming Languages: 
+TypeScript               3 hrs 44 mins       █████████████████████████   99.99 % 
+CSS                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
+
+🔥 Editors: 
+VS Code                  3 hrs 44 mins       █████████████████████████   100.00 % 
+
+🐱‍💻 Projects: 
+IngenieriaSoftware       3 hrs 44 mins       █████████████████████████   100.00 % 
+
+💻 Operating System: 
+Linux                    3 hrs 44 mins       █████████████████████████   100.00 % 
+```
+
+**I Mostly Code in Java** 
+
+```text
+TeX                      3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.34 % 
+Jupyter Notebook         1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.45 % 
+TypeScript               1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.45 % 
+ShaderLab                1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.45 % 
+CSS                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.45 % 
+```
+
+
+
+**Timeline**
+
+![Lines of Code chart](https://raw.githubusercontent.com/JuanSosaCiencias/JuanSosaCiencias/main/assets/bar_graph.png)
+
+
+ Last Updated on 29/04/2025 06:07:39 UTC
+<!--END_SECTION:waka-->
 
   [//]: # (wakatime-stats)
   [//]: # (end-wakatime-stats)
