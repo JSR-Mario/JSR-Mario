@@ -1,19 +1,20 @@
 name: Update WakaTime Stats
-
 on:
   schedule:
-    - cron: '0 0 * * *'      
-  workflow_dispatch:         
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
-  update-readme:
+  waka:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
-      - name: Update WakaTime stats
-        uses: claserre9/wakatime-stats@master   
+      - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          WAKATIME_USER_ID: ${{ secrets.WAKATIME_USER_ID }}
           GH_TOKEN:          ${{ secrets.GITHUB_TOKEN }}
+          SHOW_LINES_OF_CODE: "true"
+          SHOW_LOC_CHART:     "true"
+          SHOW_PROJECTS:      "true"
+
