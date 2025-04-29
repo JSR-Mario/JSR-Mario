@@ -176,8 +176,9 @@ CSS                      1 repo              █░░░░░░░░░░�
  Last Updated on 29/04/2025 06:07:39 UTC
 <!--END_SECTION:waka-->
 
-  [//]: # (wakatime-stats)
-  [//]: # (end-wakatime-stats)
+<!-- Activity graph below -->
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=JuanSosaCiencias&theme=dracula)](https://github.com/Ashutosh00710/github-readme-activity-graph)
+
 
 </details>
 
