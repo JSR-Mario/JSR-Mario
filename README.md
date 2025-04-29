@@ -106,40 +106,7 @@
 
   <!-- wakatime-stats injected here -->
   [//]: # (wakatime-stats)
-
-### Wakatime Stats
-```
-╔═══════ Last 30 Days Stats for Programming Languages ═══════╗
-║ Programming Languages     │ Total Hours                    ║
-╠═══════════════════════════╪════════════════════════════════╣
-║ TypeScript                │         14 hrs 45 mins         ║
-║ Python                    │          4 hrs 4 mins          ║
-║ TeX                       │          1 hr 33 mins          ║
-║ CSS                       │            14 mins             ║
-║ Git                       │             1 min              ║
-║ Markdown                  │             1 min              ║
-║ Other                     │             0 secs             ║
-╚═══════════════════════════╧════════════════════════════════╝
-
-
-╔══════════════ Last 30 Days Stats for Editors ══════════════╗
-║ Editors                   │ Total Hours                    ║
-╠═══════════════════════════╪════════════════════════════════╣
-║ VS Code                   │         20 hrs 40 mins         ║
-╚═══════════════════════════╧════════════════════════════════╝
-
-
-╔═════════ Last 30 Days Stats for Operating Systems ═════════╗
-║ Operating Systems         │ Total Hours                    ║
-╠═══════════════════════════╪════════════════════════════════╣
-║ Linux                     │         17 hrs 53 mins         ║
-║ Windows                   │         2 hrs 46 mins          ║
-╚═══════════════════════════╧════════════════════════════════╝
-```
-
-[//]: # (end-wakatime-stats)
-
-
+  [//]: # (end-wakatime-stats)
 
 </details>
 
