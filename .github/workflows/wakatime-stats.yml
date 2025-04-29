@@ -1,8 +1,14 @@
 name: Update WakaTime Stats
+
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *'      # daily at midnight UTC
+  workflow_dispatch:         # manual trigger
+
+permissions:
+  contents: write            # grant write access to repo contents
+  id-token: write            # if you use OIDC
+  pull-requests: write       # if you update PRs
 
 jobs:
   update-stats:
@@ -10,10 +16,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: anmol098/waka-readme-stats@master
+      - name: Inject WakaTime stats
+        uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GH_TOKEN:          ${{ secrets.GITHUB_TOKEN }}
+          WAKATIME_USER_ID: ${{ secrets.WAKATIME_USER_ID }}
+          GH_TOKEN:          ${{ secrets.GH_TOKEN }}
           SHOW_LINES_OF_CODE: "true"
           SHOW_LOC_CHART:     "true"
           SHOW_PROJECTS:      "true"
