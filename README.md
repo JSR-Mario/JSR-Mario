@@ -141,18 +141,16 @@ Sunday                   104 commits         █░░░░░░░░░░�
 🕑︎ Time Zone: America/Mexico_City
 
 💬 Programming Languages: 
-Python                   2 mins              ████████████████████████░   97.77 % 
-Docker                   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.83 % 
-Bash                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.40 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  2 mins              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-IngenieriaSoftware       2 mins              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Linux                    2 mins              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in Java** 
@@ -168,7 +166,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 13/05/2025 02:01:22 UTC
+ Last Updated on 14/05/2025 01:59:29 UTC
 <!--END_SECTION:waka-->
 
 <!-- Activity graph below -->
