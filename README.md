@@ -3,10 +3,6 @@
 - 🎓 I’m a Computer Science student dedicating my time to building useful and impactful projects.  
 - 🏋️‍♂️ In my free time, I enjoy weightlifting and watching movies
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=JuanSosaCiencias&label=Profile%20views&color=0e75b6&style=flat" alt="100rabhcsmc" />
-</p>
-
 
 🚀 Some of my main projects:
 
