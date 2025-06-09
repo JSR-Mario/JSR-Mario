@@ -26,6 +26,8 @@ jobs:
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           SHOW_LINES_OF_CODE: "true"
           SHOW_LOC_CHART: "false"
           SHOW_PROJECTS: "true"
@@ -36,12 +38,5 @@ jobs:
           SHOW_OS: "true"
           SHOW_TIMEZONE: "true"
           SHOW_EDITORS: "true"
-          SHOW_LANGUAGE_PER_REPO: "false"
-          SHOW_SHORT_INFO: "true"
           SHOW_UPDATED_DATE: "true"
-          LOCALE: "es"  # Spanish locale since you're from Mexico
-          COMMIT_BY_ME: "true"
-          # Reduce API calls to prevent timeouts
-          EXCLUDED_REPOS: ""
-          # Add retry logic
-          RETRY_COUNT: "3"
+          LOCALE: "es"
