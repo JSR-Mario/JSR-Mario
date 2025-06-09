@@ -22,7 +22,7 @@ jobs:
           fetch-depth: 0  # Fetch full history for better stats
           
       - name: Update WakaTime stats
-        uses: anmol098/waka-readme-stats@v4.25.0
+        uses: anmol098/waka-readme-stats@v4.4
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
