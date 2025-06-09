@@ -2,27 +2,46 @@ name: Update WakaTime Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'      # daily at midnight UTC
-  workflow_dispatch:         # manual trigger
+    - cron: '0 0 * * *'  # daily at midnight UTC
+  workflow_dispatch:     # manual trigger
 
 permissions:
-  contents: write            # grant write access to repo contents
-  id-token: write            # if you use OIDC
-  pull-requests: write       # if you update PRs
+  contents: write        # grant write access to repo contents
+  id-token: write        # if you use OIDC
+  pull-requests: write   # if you update PRs
 
 jobs:
   update-stats:
     runs-on: ubuntu-latest
+    timeout-minutes: 30  # Add timeout to prevent long-running jobs
+    
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Inject WakaTime stats
+      - name: Checkout repository
+        uses: actions/checkout@v4  # Updated to v4
+        with:
+          fetch-depth: 0  # Fetch full history for better stats
+          
+      - name: Update WakaTime stats
         uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          WAKATIME_USER_ID: ${{ secrets.WAKATIME_USER_ID }}
-          GH_TOKEN:          ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           SHOW_LINES_OF_CODE: "true"
-          SHOW_LOC_CHART:     "false"
-          SHOW_PROJECTS:      "true"
-          SHOW_PROFILE_VIEWS:  "false"
+          SHOW_LOC_CHART: "false"
+          SHOW_PROJECTS: "true"
+          SHOW_PROFILE_VIEWS: "false"
+          SHOW_COMMIT: "true"
+          SHOW_DAYS_OF_WEEK: "true"
+          SHOW_LANGUAGE: "true"
+          SHOW_OS: "true"
+          SHOW_TIMEZONE: "true"
+          SHOW_EDITORS: "true"
+          SHOW_LANGUAGE_PER_REPO: "false"
+          SHOW_SHORT_INFO: "true"
+          SHOW_UPDATED_DATE: "true"
+          LOCALE: "es"  # Spanish locale since you're from Mexico
+          COMMIT_BY_ME: "true"
+          # Reduce API calls to prevent timeouts
+          EXCLUDED_REPOS: ""
+          # Add retry logic
+          RETRY_COUNT: "3"
