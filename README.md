@@ -6,19 +6,13 @@
 
 🚀 Some of my main projects:
 
-- 🔭  A Project in Angular using MySql and bootsrap:
-
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=JuanSosaCiencias&repo=tienda-angular)](https://github.com/JuanSosaCiencias/tienda-angular)
-
-- 🤖 Currently working on AI & Machine Learning practices in Python — PyTorch, scikit-learn, TensorFlow, Pillow, etc.; includes a CNN model to predict brain tumors from MRI scans
-
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=JuanSosaCiencias&repo=IA)](https://github.com/JuanSosaCiencias/IA)
-
-
 - 🔥 Currently working on a student-type LinkedIn using React and Django + first time using Docker compose
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=arielmerinos&repo=IngenieriaSoftware)](https://github.com/arielmerinos/IngenieriaSoftware)
 
+- 🤖 Data mining and NLP projects and practice 
+
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=JuanSosaCiencias&repo=MeIA)](https://github.com/JuanSosaCiencias/MeIA)
 
 - :bar_chart: I love math and applied science 😃
 
