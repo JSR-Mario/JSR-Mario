@@ -14,6 +14,11 @@
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=JuanSosaCiencias&repo=MeIA)](https://github.com/JuanSosaCiencias/MeIA)
 
+- 🧠 Hacker Rank practice mainly in Java 15 ☕️ 
+
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=JSR-Mario&repo=hackerRankPractice)](https://github.com/JSR-Mario/hackerRankPractice)
+
+
 - :bar_chart: I love math and applied science 😃
 
 <p> 
