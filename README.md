@@ -171,7 +171,7 @@ TypeScript               1 repo              █░░░░░░░░░░�
 <!--END_SECTION:waka-->
 
 <!-- Activity graph below -->
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=JuanSosaCiencias&theme=dracula)](https://github.com/Ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=JSR-Mario&theme=dracula)](https://github.com/Ashutosh00710/github-readme-activity-graph)
 
 
 </details>
