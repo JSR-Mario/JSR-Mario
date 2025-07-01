@@ -12,7 +12,7 @@
 
 - 🤖 Data mining and NLP projects and practice 
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=JuanSosaCiencias&repo=MeIA)](https://github.com/JuanSosaCiencias/MeIA)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=JSR-Mario&repo=MeIA)](https://github.com/JSR-Mario/MeIA)
 
 - 🧠 Hacker Rank practice mainly in Java 15 ☕️ 
 
