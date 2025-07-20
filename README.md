@@ -93,19 +93,19 @@
 
   <!-- wakatime-stats injected here -->
   <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-8-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 441.1 kB Used in GitHub's Storage 
+> 📦 441.3 kB Used in GitHub's Storage 
  > 
-> 🏆 280 Contributions in the Year 2025
+> 🏆 281 Contributions in the Year 2025
  > 
 > 💼 Opted to Hire
  > 
 > 📜 18 Public Repositories 
  > 
-> 🔑 1 Private Repositories 
+> 🔑 2 Private Repositories 
  > 
 **I'm a Night 🦉** 
 
@@ -134,26 +134,26 @@ Sunday                   205 commits         ██░░░░░░░░░�
 🕑︎ Time Zone: America/Mexico_City
 
 💬 Programming Languages: 
-Python                   42 mins             █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  42 mins             █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-TIC1                     42 mins             █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Linux                    42 mins             █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in Java** 
 
 ```text
-Java                     17 repos            █████████████░░░░░░░░░░░░   53.12 % 
-TeX                      4 repos             ███░░░░░░░░░░░░░░░░░░░░░░   12.50 % 
-Jupyter Notebook         2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.25 % 
-TypeScript               1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.12 % 
-ShaderLab                1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.12 % 
+Java                     17 repos            █████████████░░░░░░░░░░░░   51.52 % 
+TeX                      4 repos             ███░░░░░░░░░░░░░░░░░░░░░░   12.12 % 
+TypeScript               2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.06 % 
+Jupyter Notebook         2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.06 % 
+ShaderLab                1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.03 % 
 ```
 
 
@@ -163,7 +163,7 @@ ShaderLab                1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/JSR-Mario/JSR-Mario/main/assets/bar_graph.png)
 
 
- Last Updated on 13/07/2025 01:06:14 UTC
+ Last Updated on 20/07/2025 01:07:03 UTC
 <!--END_SECTION:waka-->
 
 <!-- Activity graph below -->
