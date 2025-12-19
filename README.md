@@ -1,83 +1,96 @@
-### Hi there 👋
+## Hi there 
 
-- 🎓 I’m a Computer Science student dedicating my time to building useful and impactful projects.  
-- 🏋️‍♂️ In my free time, I enjoy weightlifting and watching movies
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=jsr_mario.jsr_mario)
 
+### Some of my main projects:
 
-🚀 Some of my main projects:
+- A full-stack, student-type LinkedIn built with React and Django. This was also my first time using Docker Compose.
 
-- 🔥 Currently working on a student-type LinkedIn using React and Django + first time using Docker compose
+<div align="center">
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=arielmerinos&repo=IngenieriaSoftware)](https://github.com/arielmerinos/IngenieriaSoftware)
 
-- 🤖 Data mining and NLP projects and practice 
+</div>
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=JSR-Mario&repo=MeIA)](https://github.com/JSR-Mario/MeIA)
+- NASA Space Apps Challenge project: an ML predictor with a front end to use it.
 
-- 🧠 Hacker Rank practice mainly in Java 15 ☕️ 
+<div align="center">
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=JSR-Mario&repo=hackerRankPractice)](https://github.com/JSR-Mario/hackerRankPractice)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=JSR-Mario&repo=NASA)](https://github.com/JSR-Mario/NASA)
 
+</div>
 
-- :bar_chart: I love math and applied science 😃
+- A data mining project focused on the analysis of the genomes of multiple *E. coli* strains to understand virulence.
 
-<p> 
-📫  Born in México, Ciudad de México
-<br>
-📌  Living in Ciudad de México
-</p>
+<div align="center">
+
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=JSR-Mario&repo=genomicaComputacional)](https://github.com/JSR-Mario/genomicaComputacional)
+
+</div>
 
 <hr>
 
 ## Follow Me
 
-[![Gmail Badge](https://img.shields.io/badge/-juan.mario.sosa.p@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:juan.mario.sosa.p@gmail.com)](mailto:juan.mario.sosa.p@gmail.com)
-[![Linkedin Badge](https://img.shields.io/badge/-Juan_Sosa-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/juan-sosa-997405294/)](https://www.linkedin.com/in/juan-sosa-997405294/)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white&link=https://github.com/JuanSosaCiencias)](https://github.com/JuanSosaCiencias)
-[![Instagram](https://img.shields.io/badge/-Instagram-333333?style=flat-square&logo=instagram&logoColor=white&link=https://www.instagram.com/jsr_mario)](https://www.instagram.com/jsr_mario)
+<p align="center">
+    [![Gmail Badge](https://img.shields.io/badge/-juan.mario.sosa.p@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:juan.mario.sosa.p@gmail.com)](mailto:juan.mario.sosa.p@gmail.com)
+    [![Linkedin Badge](https://img.shields.io/badge/-Juan_Sosa-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/juan-sosa-997405294/)](https://www.linkedin.com/in/juan-sosa-997405294/)
+    [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white&link=https://github.com/JuanSosaCiencias)](https://github.com/JuanSosaCiencias)
+</p>
 
 <hr>
 
-## ⚡ Technologies
+```python
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-### ⚡ Frontend  
-<p align="center">
-  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript" />
-  <img alt="Angular"    src="https://img.shields.io/badge/-Angular-black?style=flat-square&logo=angular" />
-  <img alt="HTML5"      src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img alt="CSS3"       src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3" />
-  <img alt="Bootstrap"  src="https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-black?style=flat-square&logo=typescript" />
-  <img alt="React"      src="https://img.shields.io/badge/-React-black?style=flat-square&logo=react" />
-  <img alt="Tailwind"   src="https://img.shields.io/badge/-Tailwind%20CSS-black?style=flat-square&logo=tailwind-css" />
-</p>
 
-### ⚡ Backend  
-<p align="center">
-  <img alt="Node.js" src="https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js" />
-  <img alt="Python"  src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=python" />
-  <img alt="Django"  src="https://img.shields.io/badge/-Django-black?style=flat-square&logo=django" />
-  <img alt="Java"    src="https://img.shields.io/badge/-Java-black?style=flat-square&logo=java" />
-  <img alt="Docker"  src="https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker" />
-</p>
+class SoftwareEngineer:
 
-### ⚡ Databases  
-<p align="center">
-  <img alt="MySQL"      src="https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql" />
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-black?style=flat-square&logo=postgresql" />
-</p>
+    def __init__(self):
+        self.name = "Zhenye Na"
+        self.role = "Software Engineer"
+        self.language_spoken = ["zh_CN", "en_US"]
 
-### ⚡ Version Control  
-<p align="center">
-  <img alt="Git"    src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git" />
-  <img alt="GitHub" src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github" />
-</p>
+    def say_hi(self):
+        print("Thanks for dropping by, hope you find some of my work interesting.")
 
-### ⚡ Game Development  
-<p align="center">
-  <img alt="Unity" src="https://img.shields.io/badge/-Unity-black?style=flat-square&logo=unity" />
-  <img alt="C#"    src="https://img.shields.io/badge/-C%23-black?style=flat-square&logo=csharp" />
-</p>
+
+me = SoftwareEngineer()
+me.say_hi()
+```
+
+## Technologies
+
+**Frontend:**
+![JavaScript](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=6aa6f8)
+![TypeScript](https://img.shields.io/badge/Code-TypeScript-informational?style=flat&logo=typescript&logoColor=white&color=6aa6f8)
+![React](https://img.shields.io/badge/Framework-React-informational?style=flat&logo=react&logoColor=white&color=6aa6f8)
+![Angular](https://img.shields.io/badge/Framework-Angular-informational?style=flat&logo=angular&logoColor=white&color=6aa6f8)
+![HTML5](https://img.shields.io/badge/Code-HTML5-informational?style=flat&logo=html5&logoColor=white&color=6aa6f8)
+![CSS3](https://img.shields.io/badge/Code-CSS3-informational?style=flat&logo=css3&logoColor=white&color=6aa6f8)
+![Bootstrap](https://img.shields.io/badge/Framework-Bootstrap-informational?style=flat&logo=bootstrap&logoColor=white&color=6aa6f8)
+![Tailwind CSS](https://img.shields.io/badge/Framework-Tailwind_CSS-informational?style=flat&logo=tailwind-css&logoColor=white&color=6aa6f8)
+
+**Backend:**
+![Node.js](https://img.shields.io/badge/Runtime-Node.js-informational?style=flat&logo=node.js&logoColor=white&color=6aa6f8)
+![Python](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=6aa6f8)
+![Django](https://img.shields.io/badge/Framework-Django-informational?style=flat&logo=django&logoColor=white&color=6aa6f8)
+![Java](https://img.shields.io/badge/Code-Java-informational?style=flat&logo=openjdk&logoColor=white&color=6aa6f8)
+
+**Database:**
+![MySQL](https://img.shields.io/badge/Database-MySQL-informational?style=flat&logo=mysql&logoColor=white&color=6aa6f8)
+![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=6aa6f8)
+
+**Cloud Services:**
+![AWS](https://img.shields.io/badge/Cloud-AWS-informational?style=flat&logo=amazon-aws&logoColor=white&color=6aa6f8)
+![Google Cloud](https://img.shields.io/badge/Cloud-Google_Cloud-informational?style=flat&logo=google-cloud&logoColor=white&color=6aa6f8)
+![IBM Cloud](https://img.shields.io/badge/Cloud-IBM_Cloud-informational?style=flat&logo=ibm-cloud&logoColor=white&color=6aa6f8)
+
+**Tools:**
+![Docker](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=6aa6f8)
+![Git](https://img.shields.io/badge/Tools-Git-informational?style=flat&logo=git&logoColor=white&color=6aa6f8)
+![GitHub](https://img.shields.io/badge/Tools-GitHub-informational?style=flat&logo=github&logoColor=white&color=6aa6f8)
 
 
 <hr>

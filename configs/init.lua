@@ -213,6 +213,9 @@ require("lazy").setup({
       vim.g.vimtex_quickfix_open_on_warning = 0
       vim.g.vimtex_quickfix_open_on_error   = 0
 
+        vim.g.vimtex_quickfix_mode = 0
+        vim.g.vimtex_quickfix_autoclose_after_keystrokes = 0
+
       -- Compilación automática al guardar
       vim.g.vimtex_compiler_latexmk = {
         build_dir = '',
@@ -367,6 +370,47 @@ require("lazy").setup({
       })
     end,
   },
+
+    -- COSAS DE MD
+    -- Render Markdown estilo GitHub dentro de Neovim
+    {
+      "MeanderingProgrammer/render-markdown.nvim",
+      dependencies = { "nvim-treesitter/nvim-treesitter", "nvim-tree/nvim-web-devicons" },
+      ft = { "markdown" },
+      config = function()
+        require("render-markdown").setup({
+          render_modes = { "n", "c" },
+          code_style = "normal",
+          heading = {
+            icons = { "󰲡 ", "󰲣 ", "󰲥 ", "󰲧 ", "󰲩 ", "󰲫 " },
+            backgrounds = { "RenderMarkdownH1Bg", "RenderMarkdownH2Bg", "RenderMarkdownH3Bg" },
+          },
+          link = {
+            enabled = true,
+            icon = "🔗 ",
+          },
+        })
+      end,
+    },
+
+    -- Preview Markdown en navegador
+    {
+      "iamcco/markdown-preview.nvim",
+      cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+      build = "cd app && npx --yes yarn install",
+      init = function()
+        vim.g.mkdp_filetypes = { "markdown" }
+      end,
+      ft = { "markdown" },
+      config = function()
+        vim.g.mkdp_auto_start = 0
+        vim.g.mkdp_auto_close = 1
+        vim.g.mkdp_refresh_slow = 0
+        vim.g.mkdp_theme = 'dark'
+        vim.g.mkdp_markdown_css = ''
+        vim.g.mkdp_highlight_css = ''
+      end,
+    },
 })
 
 --
@@ -499,3 +543,11 @@ vim.keymap.set("n", "<leader>la", "<cmd>copen<CR>", { desc = "LaTeX: quickfix ->
 
 -- <leader>qc -> cerrar quickfix
 vim.keymap.set("n", "<leader>ld", "<cmd>cclose<CR>", { desc = "Cerrar quickfix" })
+
+-- Keymaps para Markdown
+-- Render dentro de Neovim 
+vim.keymap.set("n", "<leader>mr", "<cmd>RenderMarkdown toggle<CR>", { silent = true, desc = "Markdown: Toggle Render in Neovim" })
+
+-- Preview en navegador
+vim.keymap.set("n", "<leader>mp", "<cmd>MarkdownPreview<CR>", { silent = true, desc = "Markdown: Preview in Browser" })
+vim.keymap.set("n", "<leader>ms", "<cmd>MarkdownPreviewStop<CR>", { silent = true, desc = "Markdown: Stop Browser Preview" })
