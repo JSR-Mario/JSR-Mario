@@ -5,49 +5,10 @@
 <p align="center">
   <a href="https://github.com/JSR-Mario"><img alt="GitHub" src="https://img.shields.io/github/followers/JSR-Mario?label=Follow&style=for-the-badge&logo=github"></a>
   <a href="https://www.linkedin.com/in/juan-sosa-997405294"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <img src="https://komarev.com/ghpvc/?username=JSR-Mario&style=for-the-badge&color=brightgreen" alt="Profile views" />
 </p>
 
 ---
-
-### Some of my main projects:
-
-- A full-stack, student-type LinkedIn built with React and Django. This was also my first time using Docker Compose.
-
-
-<p align="center">
-
-[![ReadMe Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=arielmerinos&repo=IngenieriaSoftware)](https://github.com/arielmerinos/IngenieriaSoftware)
-
-</p>
-
-
-- NASA Space Apps Challenge project: an ML predictor with a front end to use it.
-
-<div align="center">
-
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=JSR-Mario&repo=NASA)](https://github.com/JSR-Mario/NASA)
-
-</div>
-
-- A data mining project focused on the analysis of the genomes of multiple *E. coli* strains to understand virulence.
-
-<div align="center">
-
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=JSR-Mario&repo=genomicaComputacional)](https://github.com/JSR-Mario/genomicaComputacional)
-
-</div>
-
-<hr>
-
-## Follow Me
-
-<p align="center">
-    [![Gmail Badge](https://img.shields.io/badge/-juan.mario.sosa.p@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:juan.mario.sosa.p@gmail.com)](mailto:juan.mario.sosa.p@gmail.com)
-    [![Linkedin Badge](https://img.shields.io/badge/-Juan_Sosa-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/juan-sosa-997405294/)](https://www.linkedin.com/in/juan-sosa-997405294/)
-    [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white&link=https://github.com/JuanSosaCiencias)](https://github.com/JuanSosaCiencias)
-</p>
-
-<hr>
 
 ```python
 #!/usr/bin/python
@@ -57,61 +18,19 @@
 class SoftwareEngineer:
 
     def __init__(self):
-        self.name = "Zhenye Na"
-        self.role = "Software Engineer"
-        self.language_spoken = ["zh_CN", "en_US"]
+        self.name = "Juan Mario Sosa"
+        self.role = ["Software Engineer","Data scientist"]
+        self.language_spoken = ["es_ES", "en_US"]
 
     def say_hi(self):
-        print("Thanks for dropping by, hope you find some of my work interesting.")
-
+        print("Thanks for dropping by, hope you find something interesting")
 
 me = SoftwareEngineer()
 me.say_hi()
 ```
 
-## Technologies
+##  My Coding Activity
 
-**Frontend:**
-![JavaScript](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=6aa6f8)
-![TypeScript](https://img.shields.io/badge/Code-TypeScript-informational?style=flat&logo=typescript&logoColor=white&color=6aa6f8)
-![React](https://img.shields.io/badge/Framework-React-informational?style=flat&logo=react&logoColor=white&color=6aa6f8)
-![Angular](https://img.shields.io/badge/Framework-Angular-informational?style=flat&logo=angular&logoColor=white&color=6aa6f8)
-![HTML5](https://img.shields.io/badge/Code-HTML5-informational?style=flat&logo=html5&logoColor=white&color=6aa6f8)
-![CSS3](https://img.shields.io/badge/Code-CSS3-informational?style=flat&logo=css3&logoColor=white&color=6aa6f8)
-![Bootstrap](https://img.shields.io/badge/Framework-Bootstrap-informational?style=flat&logo=bootstrap&logoColor=white&color=6aa6f8)
-![Tailwind CSS](https://img.shields.io/badge/Framework-Tailwind_CSS-informational?style=flat&logo=tailwind-css&logoColor=white&color=6aa6f8)
-
-**Backend:**
-![Node.js](https://img.shields.io/badge/Runtime-Node.js-informational?style=flat&logo=node.js&logoColor=white&color=6aa6f8)
-![Python](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=6aa6f8)
-![Django](https://img.shields.io/badge/Framework-Django-informational?style=flat&logo=django&logoColor=white&color=6aa6f8)
-![Java](https://img.shields.io/badge/Code-Java-informational?style=flat&logo=openjdk&logoColor=white&color=6aa6f8)
-
-**Database:**
-![MySQL](https://img.shields.io/badge/Database-MySQL-informational?style=flat&logo=mysql&logoColor=white&color=6aa6f8)
-![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=6aa6f8)
-
-**Cloud Services:**
-![AWS](https://img.shields.io/badge/Cloud-AWS-informational?style=flat&logo=amazon-aws&logoColor=white&color=6aa6f8)
-![Google Cloud](https://img.shields.io/badge/Cloud-Google_Cloud-informational?style=flat&logo=google-cloud&logoColor=white&color=6aa6f8)
-![IBM Cloud](https://img.shields.io/badge/Cloud-IBM_Cloud-informational?style=flat&logo=ibm-cloud&logoColor=white&color=6aa6f8)
-
-**Tools:**
-![Docker](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=6aa6f8)
-![Git](https://img.shields.io/badge/Tools-Git-informational?style=flat&logo=git&logoColor=white&color=6aa6f8)
-![GitHub](https://img.shields.io/badge/Tools-GitHub-informational?style=flat&logo=github&logoColor=white&color=6aa6f8)
-
-
-<hr>
-<!--
-![Github Stats](https://github-readme-stats.vercel.app/api?username=JuanSosaCiencias&count_private=true&show_icons=true)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=minoveaz&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
--->
-
-## ⚡ My Coding Activity
-
-<details>
-  <summary>📊 Show My WakaTime Stats</summary>
 
   <!-- wakatime-stats injected here -->
   <!--START_SECTION:waka-->
@@ -189,30 +108,6 @@ TypeScript               2 repos             █░░░░░░░░░░�
 
  Last Updated on 28/12/2025 01:08:10 UTC
 <!--END_SECTION:waka-->
-
-
-</details>
-
-<hr>
-
----
-
-##  Visitor Tracker
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=JSR-Mario&style=for-the-badge&color=brightgreen" alt="Profile views" />
-</p>
-
-
----
-
-### 🧩 GitHub Contribution Snake 🐍
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=oMtBioG-j6Q">
-    <img src="https://raw.githubusercontent.com/JSR-Mario/JSR-Mario/output/github-contribution-grid-snake.svg" alt="Snake animation" width="800px" class="snake-animation"/>
-  </a>
-</p>
 
 ---
 
