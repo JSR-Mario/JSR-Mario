@@ -9,7 +9,7 @@
 
 <p align="center">
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=arielmerinos&repo=IngenieriaSoftware)](https://github.com/arielmerinos/IngenieriaSoftware)
+[![ReadMe Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=arielmerinos&repo=IngenieriaSoftware)](https://github.com/arielmerinos/IngenieriaSoftware)
 
 </p>
 
