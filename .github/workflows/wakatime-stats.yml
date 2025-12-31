@@ -28,7 +28,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
           # Visibilidad
-          SHOW_PROFILE_VIEWS: "False"   # Desactiva profile views
+          SHOW_PROFILE_VIEWS: "False"    
           SHOW_UPDATED_DATE: "True"
           SHOW_SHORT_INFO: "True"
 
