@@ -1,6 +1,13 @@
-## Hi there 
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&center=true&vCenter=true&width=435&lines=Hi+I'm+Juan+Mario+Sosa!" alt="Typing SVG" />
+</h1>
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=jsr_mario.jsr_mario)
+<p align="center">
+  <a href="https://github.com/JSR-Mario"><img alt="GitHub" src="https://img.shields.io/github/followers/JSR-Mario?label=Follow&style=for-the-badge&logo=github"></a>
+  <a href="https://www.linkedin.com/in/juan-sosa-997405294"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+</p>
+
+---
 
 ### Some of my main projects:
 
@@ -183,13 +190,31 @@ TypeScript               2 repos             █░░░░░░░░░░�
  Last Updated on 28/12/2025 01:08:10 UTC
 <!--END_SECTION:waka-->
 
-<!-- Activity graph below -->
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=JSR-Mario&theme=dracula)](https://github.com/Ashutosh00710/github-readme-activity-graph)
-
 
 </details>
 
 <hr>
 
-<h2  align="center">💻 Check Out My Repos ⬇️ </h2>
+---
+
+##  Visitor Tracker
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=JSR-Mario&style=for-the-badge&color=brightgreen" alt="Profile views" />
+</p>
+
+
+---
+
+### 🧩 GitHub Contribution Snake 🐍
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=oMtBioG-j6Q">
+    <img src="https://raw.githubusercontent.com/JSR-Mario/JSR-Mario/output/github-contribution-grid-snake.svg" alt="Snake animation" width="800px" class="snake-animation"/>
+  </a>
+</p>
+
+---
+
+<h2  align="center"> Check Out My Repos ⬇️ </h2>
 
