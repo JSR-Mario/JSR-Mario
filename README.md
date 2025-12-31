@@ -6,11 +6,11 @@
 
 - A full-stack, student-type LinkedIn built with React and Django. This was also my first time using Docker Compose.
 
-<div align="center">
-
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=arielmerinos&repo=IngenieriaSoftware)](https://github.com/arielmerinos/IngenieriaSoftware)
-
-</div>
+<p align="center">
+  <a href="https://github.com/arielmerinos/IngenieriaSoftware">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=arielmerinos&repo=IngenieriaSoftware&theme=tokyonight" />
+  </a>
+</p></div>
 
 - NASA Space Apps Challenge project: an ML predictor with a front end to use it.
 
