@@ -1,1 +1,12 @@
-CV/
+*.bib  
+*.bbl  
+*.blg          
+*.fls  
+*.out  
+*cv.run.xml
+*cv.aux         
+*cv.bcf  
+*cv.fdb_latexmk  
+*cv.log  
+*cv.pdf  
+*cv.synctex.gz
