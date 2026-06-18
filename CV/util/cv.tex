@@ -1,0 +1,237 @@
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%	The MIT License (MIT)
+%
+%	Copyright (c) 2021 Jitin Nair
+%
+%	Permission is hereby granted, free of charge, to any person obtaining a copy
+%	of this software and associated documentation files (the "Software"), to deal
+%	in the Software without restriction, including without limitation the rights
+%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%	copies of the Software, and to permit persons to whom the Software is
+%	furnished to do so, subject to the following conditions:
+%	
+%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+%	THE SOFTWARE.
+%	
+%
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT DEFINITION
+%----------------------------------------------------------------------------------------
+
+% article class because we want to fully customize the page and not use a cv template
+\documentclass[a4paper,11pt]{article}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{url}
+\usepackage{parskip} 	
+
+%other packages for formatting
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.88]{geometry}
+
+%tabularx environment
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
+%custom \section
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+
+%for publications
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+%Setup hyperref package, and colours for links
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+%for social icons
+\usepackage{fontawesome5}
+
+%debug page outer frames
+%\usepackage{showframe}
+
+
+% job listing environments
+\newenvironment{jobshort}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill &  #2 \\[3.75pt]
+    \end{tabularx}
+    }
+    {
+    }
+
+\newenvironment{joblong}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill &  #2 \\[3.75pt]
+    \end{tabularx}
+    \begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=--]
+    }
+    {
+    \end{itemize}
+    \end{minipage}    
+    }
+
+
+
+%----------------------------------------------------------------------------------------
+%	BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+% non-numbered pages
+\pagestyle{empty} 
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+% \begin{tabularx}{\linewidth}{ @{}X X@{} }
+% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
+% \raisebox{-0.05\height}\faGithub\ username \ | \
+% \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
+% \end{tabularx}
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Juan Mario Sosa Romo} \\[7.5pt]
+\href{https://github.com/JSR-Mario}{\raisebox{-0.05\height}\faGithub\ JSR-Mario} \ $|$ \ 
+\href{https://www.linkedin.com/in/juan-sosa-997405294/}{\raisebox{-0.05\height}\faLinkedin\
+Juan (Mario) Sosa} \ $|$ \ 
+% \href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
+\href{mailto:juan.mario.sosa.p@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ juan.mario.sosa.p@gmail.com} \ $|$ \ 
+\href{tel:+5588063764}{\raisebox{-0.05\height}\faMobile \ +5588063764} \\
+\end{tabularx}
+\vspace{-.5cm}
+%----------------------------------------------------------------------------------------
+% EXPERIENCE SECTIONS
+%----------------------------------------------------------------------------------------
+
+%Interests/ Keywords/ Summary
+\section{Summary}
+Early-career software and technical support professional with experience in cloud infrastructure, troubleshooting, automated reporting, and customer-facing technical environments.
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+\noindent
+Technical troubleshooting and log analysis • Linux, networking, and server hardware • Cloud infrastructure and virtualization • Python and SQL • Docker and Kubernetes • ServiceNow and Jira
+
+%Experience
+\section{Work Experience}
+
+\begin{joblong}{Site Reliability Engineer Intern @ Nutanix}{Feb 26 -- Present}
+\item Participating in technical readiness covering Linux administration, server hardware
+    fundamentals, virtualization, Nutanix AOS, hypervisor architecture, Kubernetes, disaster recovery, and cluster installation and expansion.
+\item Investigating support cases by reviewing logs, analyzing hardware-related incidents, and validating fixes for issues such as disk space and infrastructure availability.
+\item Contributing to internal knowledge base articles and ticket documentation to capture troubleshooting steps and improve future case resolution.
+\end{joblong}
+
+\begin{joblong}{Technical Support Professional Intern @ IBM}{Mar 25 -- Feb 26}
+\item Provisioned IBM Cloud infrastructure (VPC, VSI) and supported troubleshooting of complex network connectivity issues involving VPN tunneling.
+\item Developed automated reporting pipelines and executive dashboards with Python, Power BI, and Excel, reducing processing time by over 90\%.
+\item Managed portfolio analytics for IBM Cloud accounts valued up to \$9M, tracking KPIs and service performance using Cognos, BSS Dashboard, ServiceNow, and Gainsight.
+\end{joblong}
+
+
+\begin{joblong}{Computer Science Teaching Assistant @ U.N.A.M}{Jul 25 -- May 26}
+\item Automated feedback workflows with Google Apps Script, reducing instructor processing time and improving student feedback turnaround.
+\item Reviewed course materials and supported the creation of educational content to improve accuracy and consistency.
+\end{joblong}
+
+% \begin{joblong}{Software Engineer (Intern) @ Institute of Applied Science and Technology}{06/22 -- 12/22}
+% \item Developed 150+ Manim animations of deformable media physics using Python (Jupyter/Colab) for course content and public demos
+% \end{joblong}
+
+\vspace{-.5cm}
+% Projects
+\section{Projects}
+
+\begin{joblong}{Academic and Professional Opportunities Platform }{Jun 2025}
+\item Developed a full-stack web application to improve access to academic and professional opportunities using Django, React, PostgreSQL, and Docker.
+\item Built backend and frontend components, including data modeling, application logic, and user-facing features.
+\end{joblong}
+
+\vspace{-.4cm}
+
+\begin{joblong}{MeIA -- Data Mining \& NLP}{Aug 2025}
+\item Built end-to-end AI pipelines and an NLP sentiment-analysis model for \textit{Pueblos Mágicos} using Transformers, domain adaptation, and data augmentation.
+\item Ranked 35/191 teams, placing in the top 18\% and within 5\% of the leading team.
+\end{joblong}
+
+% \begin{joblong}{NASA Space Apps Challenge 2025 — \textit{Minima Acción}}{\href{https://github.com/JSR-Mario/NASA}{Repo}}
+% \item Led a multidisciplinary team (6 members) to deliver an MVP and reproducible pipeline in 48
+%     hours; built a Streamlit interface and demo to showcase the full data-to-prediction flow
+% \item Applied AutoML + foundational models; feature engineering and validation increased model confidence to 98.5\%
+% % \item Key skills: Python, AutoML, Streamlit, feature engineering, model validation
+% \end{joblong}
+%
+
+\vspace{-.5cm}
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+\begin{tabularx}{\linewidth}{@{}l X@{}}	
+Aug. 2022 -- Jun. 2026 & Bachelor's Degree at \textbf{U.N.A.M} \hfill GPA: 9.75/10 
+\end{tabularx}
+
+\vspace{-.2cm}
+
+\begin{tabularx}{\linewidth}{@{}l X@{}}	
+Aug. 2021 -- Jun. 2022 & Computer Technician at \textbf{U.N.A.M} \hfill GPA: 9.9/10  
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+% \section{Publications}
+% \begin{refsection}[citations.bib]
+% \nocite{*}
+% \printbibliography[heading=none]
+% \end{refsection}
+
+
+\vspace{-.3cm}
+
+
+
+
+% \vfill
+% \center{\footnotesize Last updated: \today}
+
+\end{document}
