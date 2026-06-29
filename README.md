@@ -15,18 +15,19 @@
 # -*- coding: utf-8 -*-
 
 
-class SoftwareEngineer:
+class TechUser:
 
     def __init__(self):
         self.name = "Juan Mario Sosa"
-        self.role = ["Software Engineer","Data scientist"]
+        self.role = ["SRE","Software Engineer","Data scientist"]
         self.language_spoken = ["es_ES", "en_US"]
 
-    def say_hi(self):
-        print("Thanks for dropping by, hope you find something interesting")
+    def hi(self):
+        print("This works ...")
+        # TODO : ...
 
-me = SoftwareEngineer()
-me.say_hi()
+mario = TechUser()
+mario.hi()
 ```
 
 ##  My Coding Activity
