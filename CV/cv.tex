@@ -63,7 +63,7 @@
 %CV Sections inspired by: 
 %http://stefano.italians.nl/archives/26
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{10pt}{10pt}
+\titlespacing{\section}{0pt}{8pt}{6pt}
 
 %for publications
 \usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
@@ -147,8 +147,12 @@ Juan (Mario) Sosa} \ $|$ \
 %----------------------------------------------------------------------------------------
 
 \section{Skills}
-\noindent
-AWS, Cloud Infrastructure, Docker, Kubernetes • GitHub Actions, Observability, Log Analysis • Python, Java, Elixir, SQL (PostgreSQL) • RESTful APIs, Microservices, LLMs (Claude) • Jira, ServiceNow
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+\textbf{Cloud \& Infrastructure:} & AWS, Docker, Kubernetes, Linux, Bash, Observability (Grafana, Loki, Prometheus) \\
+\textbf{Languages \& Frameworks:} & Java, Python, TypeScript, Elixir, SQL, Redis, Spring Boot, Angular \\
+\textbf{Engineering \& Tools:} & Microservices, RESTful APIs, CI/CD (GitHub Actions), LLMs
+\end{tabularx}
+\vspace{-.3cm}
 
 %Experience
 \section{Work Experience}
@@ -180,7 +184,7 @@ AWS, Cloud Infrastructure, Docker, Kubernetes • GitHub Actions, Observability,
 \section{Projects}
 
 \begin{joblong}{Cloud-Native Microservices Training Platform $|$ \textnormal{\small \url{https://app.jsr-mario.com}}}{Jul 2026}
-\item Engineered a scalable microservices architecture exposing RESTful APIs (Java, Spring Boot, Angular, PostgreSQL, Redis) and implemented automated CI/CD pipelines via GitHub Actions for Dockerized deployments on AWS EC2, secured with Cloudflare Tunnels.
+\item Engineered a scalable microservices architecture (Java 21, Spring Boot, Angular, PostgreSQL, Redis) on AWS Lightsail with API Gateway rate limiting and L2 caching; integrated a centralized observability stack (Grafana, Loki, Promtail, Prometheus), Cloudflare Tunnels with Zero Trust Access, and automated DB backups to AWS S3.
 \end{joblong}
 
 \vspace{-.2cm}
