@@ -63,7 +63,7 @@
 %CV Sections inspired by: 
 %http://stefano.italians.nl/archives/26
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{10pt}{10pt}
+\titlespacing{\section}{0pt}{8pt}{6pt}
 
 %for publications
 \usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
@@ -147,8 +147,12 @@ Juan (Mario) Sosa} \ $|$ \
 %----------------------------------------------------------------------------------------
 
 \section{Skills}
-\noindent
-AWS (Lightsail, S3), Cloud Infrastructure, Docker, Kubernetes • GitHub Actions, Observability (Grafana, Loki, Prometheus) • Java, Python, Elixir, SQL (PostgreSQL), Redis • RESTful APIs, Microservices, LLMs (Claude) • Jira, ServiceNow
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+\textbf{Cloud \& Infrastructure:} & AWS, Docker, Kubernetes, Linux, Bash, Observability (Grafana, Loki, Prometheus) \\
+\textbf{Languages \& Frameworks:} & Java, Python, TypeScript, Elixir, SQL, Redis, Spring Boot, Angular \\
+\textbf{Engineering \& Tools:} & Microservices, RESTful APIs, CI/CD (GitHub Actions), LLMs
+\end{tabularx}
+\vspace{-.3cm}
 
 %Experience
 \section{Work Experience}
