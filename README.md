@@ -30,7 +30,7 @@ mario = TechUser()
 mario.hi()
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Infra, Cloud & Observability
 ![Linux - operating system](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
